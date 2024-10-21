@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Marksheet Generator</h2>
+        <form id="marksheet-form">
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <input type="text" id="rollNo" placeholder="Enter your roll number" required>
+            <input type="number" id="mathMarks" placeholder="Enter Math marks" required>
+            <input type="number" id="urduMarks" placeholder="Enter Urdu marks" required>
+            <input type="number" id="englishMarks" placeholder="Enter English marks" required>
+            <button type="button" onclick="generateMarksheet()">Generate Marksheet</button>
+        </form>
+        <div id="report-card" class="report-card"></div>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
